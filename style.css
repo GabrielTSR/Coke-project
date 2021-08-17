@@ -4,3 +4,88 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(207, 36, 37, 1) 0%, rgba(219, 93, 96, 1) 53%, rgba(207, 36, 37, 1) 100%);
+    padding: 50px 100px 50px 100px;
+}
+
+header {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 2rem;
+    overflow: hidden;
+}
+
+#submenu {
+    height: 5px;
+    width: 60px;
+    background-color: white;
+    box-shadow: -20px 15px 0px white, -20px -15px 0px white;
+    margin-right: 20px;
+}
+
+main {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    gap: 30px;
+}
+
+h1 {
+    position: absolute;
+    font-size: 2.5rem;
+    width: 800px;
+    padding-right: 450px;
+    color: white;
+}
+
+#garrafa-central {
+    height: 80%;
+    filter: drop-shadow(0px 200px 50px #851b1b);
+}
+
+#coca-background {
+    position: absolute;
+    z-index: -1;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60px;
+    width: 100%;
+}
+
+footer img {
+    height: 100%;
+}
+
+@media (max-width: 1326px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    h1 {
+        position: unset;
+        padding-right: 0;
+        width: 250px;
+    }
+}
