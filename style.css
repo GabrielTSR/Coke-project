@@ -24,7 +24,6 @@ header {
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 2rem;
-    overflow: hidden;
 }
 
 #submenu {
@@ -33,6 +32,7 @@ header {
     background-color: white;
     box-shadow: -20px 15px 0px white, -20px -15px 0px white;
     margin-right: 20px;
+    overflow: hidden;
 }
 
 main {
@@ -62,12 +62,13 @@ h1 {
 #coca-background {
     position: absolute;
     z-index: -1;
+    width: 100%;
 }
 
 footer {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     justify-content: flex-end;
     height: 60px;
     width: 100%;
