@@ -24,15 +24,15 @@ header {
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 2rem;
+    overflow: hidden;
 }
 
 #submenu {
-    height: 5px;
-    width: 60px;
+    height: 4px;
+    width: 70px;
     background-color: white;
     box-shadow: -20px 15px 0px white, -20px -15px 0px white;
     margin-right: 20px;
-    overflow: hidden;
 }
 
 main {
