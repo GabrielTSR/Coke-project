@@ -108,6 +108,9 @@ footer img {
         width: 100px;
     }
     #garrafa-central {
-        height: 50vh;
+        height: 65vh;
+    }
+    footer img {
+        height: 60%;
     }
 }
